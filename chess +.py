@@ -1,0 +1,1 @@
+[[(1 if ((i + j) % 2 == 0) else 0) for i in range(m)] for j in range(n)]
