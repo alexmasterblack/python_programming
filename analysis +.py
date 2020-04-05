@@ -10,7 +10,6 @@ for i in string:
     else:
         dictionary[i] = 1
 
-
 sorted_dict = sorted(dictionary.items(), key = lambda i: -i[1])
 
 equal = [[] for i in range(sorted_dict[0][1])]
