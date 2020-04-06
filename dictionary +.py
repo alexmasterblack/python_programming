@@ -15,8 +15,5 @@ print(len(list(string.keys())))
 sorted_string = sorted(string.items())
 
 for i, j in sorted_string:
-    if type(j) == list:
-        elem = str(j).replace('[', '').replace(']', '').replace('\'', '')
-        print(i, '-', elem)
-    else:
-        print(i, '-', j)
+    elem = str(j).replace('[', '').replace(']', '').replace('\'', '')
+    print(i, '-', elem)
